@@ -1,4 +1,3 @@
-import { Children } from "react"
 import styled from "styled-components"
 export const Notification = ({ message,children }) => <NotificationStyled>{message}{ children}</NotificationStyled>
 const NotificationStyled=styled.p`

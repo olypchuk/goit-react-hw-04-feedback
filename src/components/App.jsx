@@ -14,8 +14,6 @@ const [bad, setBad] = useState(0)
 const objState = {
     good,bad,neutral
   }
-
-
   const onLeaveFeedback = e => {
     const variants = e.currentTarget.name
     if (variants === 'good') {
